@@ -5,12 +5,15 @@
 //  Created by Linton on 2024/8/21.
 //
 
+// swift-private: true
+
 import Foundation
 
-public struct AileTestor {
-    public func publicFunc() {
+struct AileTestor {
+    func publicFunc() {
         print("publicFunc")
         extensionFunc()
+        
     }
     
     func internalFunc() {
